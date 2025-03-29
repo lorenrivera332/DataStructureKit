@@ -1,0 +1,23 @@
+
+---
+
+### **3. 22_LogSweepTool**  
+**Description:**  
+A tool that scans logs and surfaces repeated messages, error spikes, and warning clusters.
+
+#### **README.md**
+```markdown
+# LogSweepTool - Log Frequency Analyzer
+
+LogSweepTool highlights what shows up too often in logs, helping you identify bugs, failures, or noise.
+
+## Features
+- Detects high-frequency entries  
+- Keyword alerting  
+- CLI output with counts  
+
+## Usage
+```bash
+git clone https://github.com/your-username/22_LogSweepTool.git
+cd 22_LogSweepTool
+python analyze.py logs/app.log
