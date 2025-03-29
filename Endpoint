@@ -1,0 +1,23 @@
+
+---
+
+### **2. 22_ServiceHealthScanner**  
+**Description:**  
+Scans the status and response time of web APIs or HTTP services.
+
+#### **README.md**
+```markdown
+# ServiceHealthScanner - HTTP Endpoint Tracker
+
+ServiceHealthScanner checks uptime and latency for a list of endpoints, returning formatted console output.
+
+## Features
+- Multi-endpoint support  
+- Logs status + ms timing  
+- Configurable delay  
+
+## Usage
+```bash
+git clone https://github.com/your-username/22_ServiceHealthScanner.git
+cd 22_ServiceHealthScanner
+python monitor.py
