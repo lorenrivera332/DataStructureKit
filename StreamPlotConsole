@@ -1,0 +1,23 @@
+
+---
+
+### **4. 22_StreamPlotConsole**  
+**Description:**  
+Live-plots incoming numeric data to a dynamic Matplotlib chart.
+
+#### **README.md**
+```markdown
+# StreamPlotConsole - Real-Time Data Visualizer
+
+StreamPlotConsole draws live line charts from incoming data streams for monitoring and visual feedback.
+
+## Features
+- Scrollable graph  
+- Adjustable speed  
+- Clean charting UI  
+
+## Usage
+```bash
+git clone https://github.com/your-username/22_StreamPlotConsole.git
+cd 22_StreamPlotConsole
+python visualize.py
